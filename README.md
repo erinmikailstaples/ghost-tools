@@ -1,11 +1,10 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
-<h4 align="center">I'm a curious connecter looking for my next role in technical community building, developer advocacy, or education program development. <a href="mailto:erin@erinmikailstaples.com"> 📧 Let's chat.</a></h4>
+<h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast. <a href="mailto:erin@erinmikailstaples.com"> 📧 Let's chat.</a></h4>
 
 ### The quick and dirty:
-- 🔭 I’m currently working on finding my next dream role.
+- 🔭 I'm passionate about education: whether its learning something new or sharing what I know.
 - 🌱 I’m currently improving my development skills across the board through diving further into open source.
 - 👯 I’m looking to collaborate on live streams, content creation, tutorial education.
-- 🤔 I’m looking for help with finding my next dream role.
 - 💬 Ask me about community building, developer advocacy, education, stand up comedy. 
 - 📫 How to reach me: email me at <a href="mailto:erin@erinmikailstaples.com">erin@erinmikailstaples.com</a></h4>
 - 😄 Pronouns: she/her
