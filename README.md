@@ -1,6 +1,8 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
 <h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast. <a href="mailto:erin@erinmikailstaples.com"> 📧 Let's chat.</a></h4>
 
+<h4 align="center">I'm currently working at Label Studio as a Developer Advocate</h4>
+
 ### The quick and dirty:
 - 🔭 I'm passionate about education: whether its learning something new or sharing what I know.
 - 🌱 I’m currently improving my development skills across the board through diving further into open source.
