@@ -1,7 +1,7 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
 <h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast. <a href="mailto:erin@erinmikailstaples.com"> 📧 Let's chat.</a></h4>
 
-<h4 align="center">I'm currently working at Label Studio as a Developer Advocate</h4>
+<h4 align="center">I'm currently working at [Label Studio](https://labelstud.io) as a Sr. Developer Community Advocate</h4>
 
 ### The quick and dirty:
 - 🔭 I'm passionate about education: whether its learning something new or sharing what I know.
@@ -11,6 +11,12 @@
 - 📫 How to reach me: email me at <a href="mailto:erin@erinmikailstaples.com">erin@erinmikailstaples.com</a></h4>
 - 😄 Pronouns: she/her
 - ⚡ Fun fact: I'm a standup comedian and comedy writer. 
+
+### Recent Posts + Projects
+- [PyData Berlin Talk: Improving Machine Learning with Human Feedback](https://labelstud.io/pydata-berlin)
+- [Get Started with RLHF](https://github.com/heartexlabs/RLHF)
+- [Label Studio Integrations Directory](https://labelstud.io/integrations)
+- [Get Started with Label Studio](https://labelstud.io/blog/zero-to-one-getting-started-with-label-studio/)
 
 ### Popular Musings:
 
