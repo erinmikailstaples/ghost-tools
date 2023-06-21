@@ -1,16 +1,19 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
 <h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast. <a href="mailto:erin@erinmikailstaples.com"> 📧 Let's chat.</a></h4>
 
-<h4 align="center">I'm currently working at [Label Studio](https://labelstud.io) as a Sr. Developer Community Advocate</h4>
+<h4 align="center">I'm currently working at <a href="https://humansignal.com">Human Signal</a> on the <a href="https://labelstud.io">Label Studio Project</a> as a Sr. Developer Community Advocate. <br> 
+
+You can learn more about me by visiting my site at <a href="https://erin.cool">erin.cool</a></h4>
 
 ### The quick and dirty:
-- 🔭 I'm passionate about education: whether its learning something new or sharing what I know.
-- 🌱 I’m currently improving my development skills across the board through diving further into open source.
-- 👯 I’m looking to collaborate on live streams, content creation, tutorial education.
-- 💬 Ask me about community building, developer advocacy, education, stand up comedy. 
+- 🔭 I'm passionate about education: whether it's learning something new or sharing what I know.
+- 🌱 I’m currently improving my development skills across the board by diving further into open source.
+- 👯 I’m looking to collaborate on live streams, content creation, and tutorial education.
+- 💬 Ask me about community building, developer advocacy, education, stand-up comedy. 
 - 📫 How to reach me: email me at <a href="mailto:erin@erinmikailstaples.com">erin@erinmikailstaples.com</a></h4>
 - 😄 Pronouns: she/her
-- ⚡ Fun fact: I'm a standup comedian and comedy writer. 
+- ⚡ Fun fact: I'm a standup comedian and comedy writer.
+- 📹 I'm exploring video content more this year, find me on <a href="HTTP://erin.tube">YouTube</a>
 
 ### Recent Posts + Projects
 - [PyData Berlin Talk: Improving Machine Learning with Human Feedback](https://labelstud.io/pydata-berlin)
