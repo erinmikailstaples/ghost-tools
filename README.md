@@ -1,7 +1,7 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
 <h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast.
 
-<h4 align="center">I'm currently working at <a href="https://humansignal.com">Human Signal</a> on the <a href="https://labelstud.io">Label Studio Project</a> as a Sr. Developer Community Advocate. <br> 
+<h4 align="center">I'm currently <a href="https://erinmikailstaples.com/for-hire">looking for my next adventure</a> in developer advocacy, technical communities or open source.<br> 
 <br>
 You can learn more about me by visiting my site at <a href="https://erin.cool">erin.cool</a>
 
