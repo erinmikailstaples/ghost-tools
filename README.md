@@ -1,7 +1,7 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
 <h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast.
 
-<h4 align="center">I'm currently a developer experience engineer at LaunchDarkly with a focus on technical education, product development + open source.<br> 
+<h4 align="center">I'm currently a developer experience engineer at LaunchDarkly (as of 11/6) with a focus on technical education, product development + open source.<br> 
 <br>
 You can learn more about me by visiting my site at <a href="https://erin.cool">erin.cool</a>
 
