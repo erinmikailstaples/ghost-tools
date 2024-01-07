@@ -1,5 +1,5 @@
-<h1 align="center">Howdy there, I'm Erin Mikail Staples.</h1>
-<h4 align="center">I'm a technical educator, developer advocate, standup comedian, and coconut lacroix enthusiast.
+<h1 align="center">Howdy there, I'm Erin Mikail Staples. 👋</h1>
+<h4 align="center">I'm the funniest damn developer experience engineer you ever did meet.
 
 <h4 align="center">I'm currently a developer experience engineer at LaunchDarkly with a focus on technical education, product development + open source.
 <br> 
