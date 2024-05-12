@@ -19,6 +19,9 @@ You can learn more about me by visiting my site at <a href="https://erinmikailst
 - 📹 I'm exploring video content more this year; find me on <a href="HTTP://erin.tube">YouTube</a>
 
 ### Recent Posts + Projects
+- [Mobile App A/B Testing](https://launchdarkly.com/blog/mobile-app-ab-testing/)
+- [Experimentation Feature Roundup](https://launchdarkly.com/blog/experimentation-in-launchdarkly-feature-roundup/)
+- [A Guide to Experimentation in LaunchDarkly](https://launchdarkly.com/blog/a-guide-to-experimentation-in-launchdarkly/)
 - [PyData Berlin Talk: Improving Machine Learning with Human Feedback](https://labelstud.io/pydata-berlin)
 - [Get Started with RLHF](https://github.com/heartexlabs/RLHF)
 - [Label Studio Integrations Directory](https://labelstud.io/integrations)
