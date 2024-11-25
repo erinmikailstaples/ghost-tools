@@ -1,7 +1,7 @@
 <h1 align="center">Howdy there, I'm Erin Mikail Staples. 👋</h1>
 <h4 align="center">I'm the funniest damn developer experience engineer you ever did meet.
 
-<h4 align="center">I'm currently a developer experience engineer at LaunchDarkly with a focus on technical education, product development + open source.
+<h4 align="center">I'm currently a Senior Developer Experience Engineer at Galileo with a focus on technical education, product development + open source.
 <br> 
 <br>
 You can learn more about me by visiting my site at <a href="https://erinmikailstaples.com">erinmikailstaples.com</a>
