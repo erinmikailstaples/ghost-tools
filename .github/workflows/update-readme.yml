@@ -1,0 +1,65 @@
+name: Update profile README
+
+on:
+  schedule:
+    # Run every hour to catch new activity quickly
+    - cron: "0 * * * *"
+    # Also run daily at 2:17 AM UTC as a backup
+    - cron: "17 2 * * *"
+  push:
+    branches: ["main"]
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - ".github/workflows/update-readme.yml"
+      - ".github/readme.config.json"
+  workflow_dispatch: {}
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      BLOG_RSS_URL: https://www.erinmikailstaples.com/rss/
+      GH_LOGIN: ${{ github.repository_owner }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+
+      - name: Install Python
+        run: uv python install 3.12
+
+      - name: Update README
+        run: uv run python scripts/update_readme.py
+        env:
+          # Use GH_PAT if available for private contributions, otherwise fallback to github.token
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Add files that might have changed
+          git add README.md .github/.state/state.json || true
+          
+          # Check if there are any changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            echo "Changes detected, committing..."
+            git commit -m "chore(readme): auto-update blog posts and GitHub stats [skip ci]"
+            git push
+          fi

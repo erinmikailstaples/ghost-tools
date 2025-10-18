@@ -1,0 +1,13 @@
+{
+  "blog": {
+    "rss_url": "https://www.erinmikailstaples.com/rss/",
+    "max_items": 5,
+    "date_format": "%b %d, %Y"
+  },
+  "stats": {
+    "show_private_summary": true,
+    "recent_days_window": 90,
+    "max_languages": 6,
+    "max_frameworks": 6
+  }
+}

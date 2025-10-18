@@ -18,7 +18,17 @@ You can learn more about me by visiting my site at <a href="https://erinmikailst
 - ⚡ Fun fact: I'm a standup comedian and comedy writer.
 - 📹 I'm exploring video content more this year; find me on <a href="HTTP://erin.tube">YouTube</a>
 
-### Recent Posts + Projects
+<!-- DYNAMIC:START:blog -->
+### Latest from my blog
+- [AI needs APIs](https://www.erinmikailstaples.com/ai-needs-apis/) — Aug 20, 2025
+- [The blog outline that beats all other blog outlines (for me).](https://www.erinmikailstaples.com/the-blog-outline-that-beats-all-other-blog-outlines/) — Jan 04, 2024
+- [Reflections on Re:Invent '23](https://www.erinmikailstaples.com/reflections-on-re-invent-23/) — Dec 04, 2023
+- [From Talk to Takeoff: harnessing the PyData Berlin presentation as a catalyst for our larger content efforts.](https://www.erinmikailstaples.com/from-talk-to-takeoff-harnessing-the-pydata-berlin-presentation-as-a-catalyst-for-our-larger-content-efforts/) — Aug 07, 2023
+- [Enabling User Adoption for New Generative AI Templates through Education](https://www.erinmikailstaples.com/enabling-user-adoption-for-new-generative-ai-templates-through-multi-platform-education-documentation/) — Aug 07, 2023
+Last updated: 2025-10-18 20:06 UTC
+<!-- DYNAMIC:END:blog -->
+
+### Highlights (curated projects & posts)
 - [Mobile App A/B Testing](https://launchdarkly.com/blog/mobile-app-ab-testing/)
 - [Experimentation Feature Roundup](https://launchdarkly.com/blog/experimentation-in-launchdarkly-feature-roundup/)
 - [A Guide to Experimentation in LaunchDarkly](https://launchdarkly.com/blog/a-guide-to-experimentation-in-launchdarkly/)
@@ -34,6 +44,9 @@ You can learn more about me by visiting my site at <a href="https://erinmikailst
 - [The Role of a Community Advocate](https://orbit.love/blog/the-role-of-a-community-advocate)
 - [How I went from dicking around on the internet to Virtual Mall CEO](https://medium.com/greener-pastures-by-elliot/how-i-went-from-dicking-around-on-the-internet-to-virtual-mall-ceo-66f479135522)
 
+
+<!-- DYNAMIC:START:stats -->
+<!-- DYNAMIC:END:stats -->
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
