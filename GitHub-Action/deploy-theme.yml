@@ -1,0 +1,112 @@
+# EXAMPLE: Ghost Theme Deployment Workflow
+# This is a learning example - customize values marked with REPLACE_ME before using
+
+# The name that appears in the GitHub Actions tab
+name: Deploy Ghost Theme
+
+# Define when this workflow should run
+on:
+  push:
+    branches: [ main ]  # Runs when code is pushed to the main branch
+  workflow_dispatch:    # Allows manual triggering from GitHub UI (useful for testing)
+
+# Define the jobs (tasks) this workflow will perform
+jobs:
+  # Job name - you can have multiple jobs that run in parallel or sequence
+  deploy:
+    # Specify the operating system for the virtual machine
+    runs-on: ubuntu-latest
+    
+    # Define the sequence of steps this job will execute
+    steps:
+    # Step 1: Get the source code from the repository
+    - name: Checkout code
+      uses: actions/checkout@v4  # This is a pre-built action from GitHub
+      
+    # Step 2: Set up Node.js environment (needed for npm commands)
+    - name: Setup Node.js
+      uses: actions/setup-node@v4  # Another pre-built action
+      with:
+        node-version: '18'         # Specify Node.js version
+        cache: 'npm'               # Cache npm dependencies for faster builds
+    
+    # Step 3: Install project dependencies (only if package-lock.json exists)
+    - name: Install dependencies
+      run: npm ci                                    # npm ci is faster and more reliable than npm install
+      if: hashFiles('package-lock.json') != ''      # Only run if package-lock.json exists
+      
+    # Step 4: Build the theme (only if a build script exists)
+    # LEARNING NOTE: Some themes need compilation (Sass, TypeScript, etc.)
+    - name: Build theme (if build script exists)
+      run: npm run build
+      # This step will continue even if the build fails (useful for themes without build steps)
+      continue-on-error: true
+      # Only run if package.json exists and has a build script
+      if: hashFiles('package.json') != ''
+      
+    # Step 5: Create a clean zip package of the theme
+    - name: Create theme package
+      run: |
+        # LEARNING NOTE: The | character allows multi-line shell commands
+        
+        # Create a clean copy for packaging (avoids modifying the original)
+        cp -r . ../theme-package
+        cd ../theme-package
+        
+        # Remove files that shouldn't be in the final theme package
+        rm -rf node_modules .git .github    # Development and version control files
+        rm -f package-lock.json .gitignore  # Lock files and git config
+        rm -f *.log .env .env.*              # Log files and environment variables
+        
+        # Create zip file excluding system files
+        zip -r ../theme.zip . -x "*.DS_Store*" "*Thumbs.db*"
+        
+        # Move back to original directory and move the zip file
+        cd "$GITHUB_WORKSPACE"  # Built-in variable for the workspace directory
+        mv ../theme.zip ./theme.zip
+        
+    # Step 6: Upload the theme to Ghost via API
+    # REPLACE_ME: Add your actual Ghost API credentials as GitHub Secrets
+    - name: Upload theme to Ghost
+      run: |
+        # LEARNING NOTE: This uses curl to make an HTTP POST request to Ghost's API
+        # The -s flag makes curl silent, -w adds the HTTP status code to output
+        response=$(curl -s -w "\n%{http_code}" -X POST \
+          -H "Authorization: Ghost ${{ secrets.GHOST_ADMIN_API_KEY }}" \
+          -H "Accept-Version: v5.0" \
+          -F "file=@theme.zip" \
+          "${{ secrets.GHOST_API_URL }}/admin/themes/upload/")
+        
+        # Extract the HTTP status code from the response
+        http_code=$(echo "$response" | tail -n1)
+        response_body=$(echo "$response" | sed '$d')
+        
+        # Log the response for debugging
+        echo "HTTP Status: $http_code"
+        echo "Response: $response_body"
+        
+        # Check if the upload was successful (200 or 201 status codes)
+        if [ "$http_code" -ne 200 ] && [ "$http_code" -ne 201 ]; then
+          echo "Theme upload failed with status $http_code"
+          exit 1  # Exit with error code to fail the workflow
+        fi
+        
+        echo "Theme uploaded successfully!"
+        
+    # Step 7: Archive the theme package as a GitHub artifact
+    # LEARNING NOTE: This stores the zip file so you can download it later
+    - name: Archive theme package
+      uses: actions/upload-artifact@v4
+      with:
+        name: ghost-theme-${{ github.sha }}  # Use commit SHA for unique naming
+        path: theme.zip
+        retention-days: 30                    # Keep artifacts for 30 days
+
+# SETUP INSTRUCTIONS:
+# 1. Replace GHOST_ADMIN_API_KEY and GHOST_API_URL with your actual secrets
+# 2. Go to your repository Settings → Secrets and variables → Actions
+# 3. Add these secrets:
+#    - GHOST_ADMIN_API_KEY: Your Ghost Admin API key
+#    - GHOST_API_URL: Your Ghost site URL (e.g., https://yourblog.ghost.io)
+# 4. Copy this file to .github/workflows/ in your theme repository
+# 5. Customize the trigger conditions and build steps as needed
