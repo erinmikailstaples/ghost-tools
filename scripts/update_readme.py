@@ -193,7 +193,7 @@ def fetch_github_stats(login, token, recent_days_window=90):
     from_recent = now - dt.timedelta(days=recent_days_window)
 
     query = """
-    query($login:String!, $fromYear:DateTime!, $to:DateTime!, $fromRecent:DateTime!) {
+    query($login:String!, $fromYear:DateTime!, $to:DateTime!) {
       user(login: $login) {
         contributionsCollection(from: $fromYear, to: $to) {
           totalCommitContributions
@@ -225,8 +225,7 @@ def fetch_github_stats(login, token, recent_days_window=90):
     variables = {
         "login": login,
         "fromYear": isoformat(from_year),
-        "to": isoformat(now),
-        "fromRecent": isoformat(from_recent)
+        "to": isoformat(now)
     }
     data = gh_graphql(query, variables, token)
     cc = data["user"]["contributionsCollection"]

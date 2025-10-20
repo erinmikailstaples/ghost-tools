@@ -25,7 +25,7 @@ You can learn more about me by visiting my site at <a href="https://erinmikailst
 - [Reflections on Re:Invent '23](https://www.erinmikailstaples.com/reflections-on-re-invent-23/) — Dec 04, 2023
 - [From Talk to Takeoff: harnessing the PyData Berlin presentation as a catalyst for our larger content efforts.](https://www.erinmikailstaples.com/from-talk-to-takeoff-harnessing-the-pydata-berlin-presentation-as-a-catalyst-for-our-larger-content-efforts/) — Aug 07, 2023
 - [Enabling User Adoption for New Generative AI Templates through Education](https://www.erinmikailstaples.com/enabling-user-adoption-for-new-generative-ai-templates-through-multi-platform-education-documentation/) — Aug 07, 2023
-Last updated: 2025-10-18 20:06 UTC
+Last updated: 2025-10-20 19:14 UTC
 <!-- DYNAMIC:END:blog -->
 
 ### Highlights (curated projects & posts)
@@ -46,6 +46,9 @@ Last updated: 2025-10-18 20:06 UTC
 
 
 <!-- DYNAMIC:START:stats -->
+### GitHub activity
+- Commits this year: 582
+- Recently used languages: Python (45%), MDX (19%), TypeScript (17%), JavaScript (7%), CSS (7%), Handlebars (3%)
 <!-- DYNAMIC:END:stats -->
 
 <h3 align="center">Connect with me:</h3>
