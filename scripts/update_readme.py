@@ -11,6 +11,14 @@ import urllib.error
 import ssl
 import xml.etree.ElementTree as ET
 
+# Load environment variables from .env file if present
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not available, continue without it
+    pass
+
 STATE_DIR = ".github/.state"
 STATE_PATH = os.path.join(STATE_DIR, "state.json")
 DEFAULT_RSS = os.environ.get("BLOG_RSS_URL", "https://www.erinmikailstaples.com/rss/")
