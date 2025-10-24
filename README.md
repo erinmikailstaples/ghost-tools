@@ -31,11 +31,11 @@ Pull requests welcome for new tools, improvements, or bug fixes.
 - [Reflections on Re:Invent '23](https://www.erinmikailstaples.com/reflections-on-re-invent-23/) — Dec 04, 2023
 - [From Talk to Takeoff: harnessing the PyData Berlin presentation as a catalyst for our larger content efforts.](https://www.erinmikailstaples.com/from-talk-to-takeoff-harnessing-the-pydata-berlin-presentation-as-a-catalyst-for-our-larger-content-efforts/) — Aug 07, 2023
 - [Enabling User Adoption for New Generative AI Templates through Education](https://www.erinmikailstaples.com/enabling-user-adoption-for-new-generative-ai-templates-through-multi-platform-education-documentation/) — Aug 07, 2023
-Last updated: 2025-10-24 15:04 UTC
+Last updated: 2025-10-24 16:05 UTC
 <!-- DYNAMIC:END:blog -->
 
 <!-- DYNAMIC:START:stats -->
 ### GitHub activity
-- Commits this year: 497 (+134 private)
+- Commits this year: 493 (+131 private)
 - Recently used languages: Python (41%), MDX (24%), TypeScript (13%), JavaScript (9%), CSS (7%), Handlebars (3%)
 <!-- DYNAMIC:END:stats -->
