@@ -26,12 +26,12 @@ Pull requests welcome for new tools, improvements, or bug fixes.
 
 <!-- DYNAMIC:START:blog -->
 ### Latest from my blog
+- [Galileo Custom Metrics Campaign — Startup Simulator 3000](https://www.erinmikailstaples.com/galileo-custom-metrics-campaign-startup-simulator-3000/) — Oct 31, 2025
 - [MCP for EDU](https://www.erinmikailstaples.com/mcp-for-edu/) — Oct 29, 2025
 - [AI needs APIs](https://www.erinmikailstaples.com/ai-needs-apis/) — Aug 20, 2025
 - [The blog outline that beats all other blog outlines (for me).](https://www.erinmikailstaples.com/the-blog-outline-that-beats-all-other-blog-outlines/) — Jan 04, 2024
 - [Reflections on Re:Invent '23](https://www.erinmikailstaples.com/reflections-on-re-invent-23/) — Dec 04, 2023
-- [From Talk to Takeoff: harnessing the PyData Berlin presentation as a catalyst for our larger content efforts.](https://www.erinmikailstaples.com/from-talk-to-takeoff-harnessing-the-pydata-berlin-presentation-as-a-catalyst-for-our-larger-content-efforts/) — Aug 07, 2023
-Last updated: 2025-10-31 19:04 UTC
+Last updated: 2025-10-31 20:05 UTC
 <!-- DYNAMIC:END:blog -->
 
 <!-- DYNAMIC:START:stats -->
