@@ -31,11 +31,11 @@ Pull requests welcome for new tools, improvements, or bug fixes.
 - [AI needs APIs](https://www.erinmikailstaples.com/ai-needs-apis/) — Aug 20, 2025
 - [The blog outline that beats all other blog outlines (for me).](https://www.erinmikailstaples.com/the-blog-outline-that-beats-all-other-blog-outlines/) — Jan 04, 2024
 - [Reflections on Re:Invent '23](https://www.erinmikailstaples.com/reflections-on-re-invent-23/) — Dec 04, 2023
-Last updated: 2025-10-31 20:05 UTC
+Last updated: 2025-10-31 21:04 UTC
 <!-- DYNAMIC:END:blog -->
 
 <!-- DYNAMIC:START:stats -->
 ### GitHub activity
 - Commits this year: 493 (+131 private)
-- Recently used languages: Python (41%), MDX (24%), TypeScript (12%), JavaScript (9%), CSS (7%), Handlebars (3%)
+- Recently used languages: Python (48%), MDX (28%), TypeScript (15%), JavaScript (5%), HTML (2%), CSS (1%)
 <!-- DYNAMIC:END:stats -->
