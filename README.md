@@ -31,7 +31,7 @@ Pull requests welcome for new tools, improvements, or bug fixes.
 - [AI needs APIs](https://www.erinmikailstaples.com/ai-needs-apis/) — Aug 20, 2025
 - [The blog outline that beats all other blog outlines (for me).](https://www.erinmikailstaples.com/the-blog-outline-that-beats-all-other-blog-outlines/) — Jan 04, 2024
 - [Reflections on Re:Invent '23](https://www.erinmikailstaples.com/reflections-on-re-invent-23/) — Dec 04, 2023
-Last updated: 2025-11-03 05:05 UTC
+Last updated: 2025-11-03 06:06 UTC
 <!-- DYNAMIC:END:blog -->
 
 <!-- DYNAMIC:START:stats -->
