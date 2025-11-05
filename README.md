@@ -26,16 +26,16 @@ Pull requests welcome for new tools, improvements, or bug fixes.
 
 <!-- DYNAMIC:START:blog -->
 ### Latest from my blog
+- [What building a Reactigotchi can teach you about an applications “memory”](https://www.erinmikailstaples.com/what-building-a-reactigotchi-can-teach-you-about-an-applications-memory/) — Nov 05, 2025
 - [How I learned to stop worrying and love the linter.](https://www.erinmikailstaples.com/how-i-learned-to-stop-worrying-and-love-the-linter/) — Nov 03, 2025
 - [Galileo Custom Metrics Campaign — Startup Simulator 3000](https://www.erinmikailstaples.com/galileo-custom-metrics-campaign-startup-simulator-3000/) — Oct 31, 2025
 - [MCP for EDU](https://www.erinmikailstaples.com/mcp-for-edu/) — Oct 29, 2025
 - [AI needs APIs](https://www.erinmikailstaples.com/ai-needs-apis/) — Aug 20, 2025
-- [The blog outline that beats all other blog outlines (for me).](https://www.erinmikailstaples.com/the-blog-outline-that-beats-all-other-blog-outlines/) — Jan 04, 2024
-Last updated: 2025-11-05 22:04 UTC
+Last updated: 2025-11-05 23:04 UTC
 <!-- DYNAMIC:END:blog -->
 
 <!-- DYNAMIC:START:stats -->
 ### GitHub activity
-- Commits this year: 496 (+131 private)
-- Recently used languages: Python (48%), MDX (28%), TypeScript (15%), JavaScript (5%), HTML (2%), CSS (1%)
+- Commits this year: 497 (+131 private)
+- Recently used languages: Python (48%), MDX (28%), TypeScript (14%), JavaScript (6%), HTML (2%), CSS (1%)
 <!-- DYNAMIC:END:stats -->
