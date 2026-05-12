@@ -31,11 +31,11 @@ Pull requests welcome for new tools, improvements, or bug fixes.
 - [How I learned to stop worrying and love the linter.](https://www.erinmikailstaples.com/how-i-learned-to-stop-worrying-and-love-the-linter/) — Nov 03, 2025
 - [Galileo Custom Metrics Campaign — Startup Simulator 3000](https://www.erinmikailstaples.com/galileo-custom-metrics-campaign-startup-simulator-3000/) — Oct 31, 2025
 - [MCP for EDU](https://www.erinmikailstaples.com/mcp-for-edu/) — Oct 29, 2025
-Last updated: 2026-05-12 09:55 UTC
+Last updated: 2026-05-12 10:49 UTC
 <!-- DYNAMIC:END:blog -->
 
 <!-- DYNAMIC:START:stats -->
 ### GitHub activity
-- Commits this year: 775 (+88 private)
-- Recently used languages: MDX (82%), TypeScript (7%), Astro (4%), Python (3%), CSS (3%), JavaScript (1%)
+- Commits this year: 776 (+88 private)
+- Recently used languages: MDX (82%), TypeScript (7%), Astro (5%), Python (3%), CSS (3%), JavaScript (1%)
 <!-- DYNAMIC:END:stats -->
